@@ -32,6 +32,13 @@ a, .description {
     font-size: 16px;
 }
 
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
 .container.one{
     padding: 0px 240px;
     background-color: #1f2937;
@@ -40,6 +47,11 @@ a, .description {
 
 .container.two{
     padding: 48px;
+}
+
+.container.three{
+    background-color: #e5e7eb;
+    padding: 120px 190px;
 }
 
 .logo {
@@ -111,4 +123,11 @@ a, .description {
 
 .subtext {
     font-size: 16px;
+}
+
+.person {
+    color:#1F2937;
+    font-size:24px;
+    font-weight: bold;
+    text-align: right;
 }
