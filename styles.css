@@ -7,12 +7,6 @@ body {
     box-sizing: border-box;
 }
 
-.container.one{
-    padding: 0px 240px;
-    background-color: #1f2937;
-    color: #f9faf8;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -36,6 +30,16 @@ a, .description {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 16px;
+}
+
+.container.one{
+    padding: 0px 240px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.container.two{
+    padding: 48px;
 }
 
 .logo {
@@ -73,4 +77,38 @@ a, .description {
     align-items: center;
     flex: 1;
 
+}
+
+.subtitle {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 800;
+}
+
+.information {
+    margin: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-bit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+}
+
+.small-img{
+    border: solid #3882f6 5px;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    
+}
+
+.subtext {
+    font-size: 16px;
 }
