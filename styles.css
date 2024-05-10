@@ -26,7 +26,8 @@ nav {
     gap: 16px;
 }
 
-a, .description {
+a,
+.description {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 16px;
@@ -39,19 +40,33 @@ blockquote {
     font-style: italic;
 }
 
-.container.one{
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 24px 128px;
+}
+
+.container.one {
     padding: 0px 240px;
     background-color: #1f2937;
     color: #f9faf8;
 }
 
-.container.two{
+.container.two {
     padding: 48px;
 }
 
-.container.three{
+.container.three {
     background-color: #e5e7eb;
     padding: 120px 190px;
+}
+
+.container.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
 }
 
 .logo {
@@ -66,6 +81,7 @@ blockquote {
     gap: 16px;
     flex: 1;
 }
+
 .hero {
     font-size: 48px;
     font-weight: 800;
@@ -77,12 +93,12 @@ blockquote {
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
-    color:#f9faf8;
+    color: #f9faf8;
     font-weight: bold;
-    width:fit-content;
-}   
+    width: fit-content;
+}
 
-.main-img{
+.main-img {
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -105,7 +121,7 @@ blockquote {
     gap: 32px;
 }
 
-.info-bit{
+.info-bit {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,12 +129,12 @@ blockquote {
     text-align: center;
 }
 
-.small-img{
+.small-img {
     border: solid #3882f6 5px;
     border-radius: 8px;
     width: 160px;
     height: 160px;
-    
+
 }
 
 .subtext {
@@ -126,8 +142,34 @@ blockquote {
 }
 
 .person {
-    color:#1F2937;
-    font-size:24px;
+    color: #1F2937;
+    font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+.popup-box {
+    background-color: #3882f6;
+    width: 70%;
+    padding: 48px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.action {
+    color: #f9faf8;
+}
+
+.action.text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action.subtext {
+    font-weight: lighter;
+}
+
+.second {
+    border: solid #f9faf8 2px;
 }
